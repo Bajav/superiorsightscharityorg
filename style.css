@@ -11,24 +11,17 @@ body
 {
   margin: 0;
   padding: 0;
-}
-.altme P
-{
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.3EM;
-  color: rgba(104, 104, 104, 0.778);
-  font-weight: 500;
+  background: #000000b1;
 }
 header
 {
     background: #090909;
-    height: 9em;
+    height: 15%;
 }
 a
 {
     text-decoration: none;
-    font-size: 100%;
+    font-size: 20px;
 }
 li
 {
@@ -37,17 +30,23 @@ li
 nav
 {
     display: flex;
-    gap: 30%;
+    gap: 200px;
+    justify-content: center;
     align-items: center;
+}
+.nav-links
+{
+    display: flex;
+    gap: 40px;
 }
 nav ul li a::after
 {
     content: "";
     height: 3px;
-    width: 0;
+    width: 100;
     position: absolute;
     background: #e4b91f;
-    top: 30px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     transition: width 0.6s;
@@ -59,11 +58,11 @@ nav ul li a:hover
 nav ul li a:hover::after
 {
   color: #e4b91f;
-    width: 100%;
+    width: fit-content;
 }
 .nav-items h3
 {
-    padding: 0em; 
+    padding: 0.4em; 
     border-radius: 5px; 
     background: #e4b91f;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,28 +74,20 @@ nav ul li a:hover::after
 }
 .nav-items img
 {
-    margin-left: 0em;
     padding: 0;
-    width: 15%;
-    height: 90%;
-}
-.nav-links
-{
-    display: flex;
-    gap: 5%;
-    width: 70%;
+    height: 80px;
 }
 .nav-links a
 {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 110%;
     color: #fff;
     font-weight: 600;
     position: relative;
 }
 .nav-links li
 {
-    padding: 0em;
+    padding: 0%;
     list-style: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
@@ -120,7 +111,7 @@ nav ul li a:hover::after
 .center-elements-btns
 {
     position: relative;
-    margin-top: 10em;
+    margin-top: 3em;
     display: flex;
     gap: 10em;
     justify-content: center;
@@ -134,7 +125,7 @@ nav ul li a:hover::after
 .center-elements-btns h3
 {
     overflow: hidden;
-     padding: 0.6em; 
+     padding: 1.3%; 
      border-radius: 5px; 
      z-index: 1;
 }
@@ -142,14 +133,14 @@ nav ul li a:hover::after
 {
     content: "";
     background: #e4b91f;
-    height:84%;
+    height: 90%;
     width: 16%;
     border-radius:4px ;
     position: absolute;
     padding: 10px;
-    left: 21.7%;
-    bottom: 0.2em;
-    transform: translateY(107%);
+    left: 22%;
+    bottom: 0.1em;
+    transform: translateY(110%);
     z-index: -1;
 }
 .center-elements-btns :nth-child(1):hover::after
@@ -165,13 +156,13 @@ nav ul li a:hover::after
 {
     content: "";
     background: #669DA5;
-    height:84%;
-    width: 17.6%;
+    height:90%;
+    width: 17%;
     border-radius:4px ;
     position: absolute;
-    left: 60.9%;
-    bottom: 0.2em;
-    transform: translateY(107%);
+    left: 61%;
+    bottom: 0.1em;
+    transform: translateY(110%);
     z-index: -1;
 }
 .center-elements-btns :nth-child(2):hover::after
@@ -207,7 +198,7 @@ nav ul li a:hover::after
     /* Remove margin-top to avoid overlapping */
     margin-left: 1em;
     margin-top: 1em;
-    font-size: 190%;
+    font-size: 4em;
     color: #fff;
     text-transform: capitalize;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -292,7 +283,7 @@ nav ul li a:hover::after
     background-size: cover;
     background-position: center;
     margin-left: 5em;
-    margin-right: 0em;
+    margin-right: 10em;
     margin-top: 3em;
     margin-bottom: 3em;
 }
@@ -374,6 +365,7 @@ nav ul li a:hover::after
     margin-left: 1em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
+    margin-bottom: 4em;
 }
 .about-section-btn a
 {
@@ -390,6 +382,10 @@ nav ul li a:hover::after
     background-size: cover;
     background-color: #0000009f;
     background-blend-mode: overlay;
+    height: fit-content;
+    width: 100v;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .donations-sect h1
 {
@@ -399,34 +395,20 @@ nav ul li a:hover::after
 .donation-cards
 {
     display: flex;
+    width: fit-content;   
 }
 .flex-me
 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20%;
-}
-.donations-sect
-{
-    color: #ffffff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.donations-sect h1
-{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3em;
-    margin-left: 1em;
-    font-weight: 800;
+    gap: 5%;
 }
 .inner-cards
 {
-    border-radius: 1em;
-    padding: 2em;
-    margin-bottom: 3em;
-    width: 22em;
-    margin-left: 3em;
-    height: 50vh;
+  width: 70%;
+  padding: 5%;
+  margin-left: 2%;
+  margin-bottom: 10%;
 }
 .inner-cards img
 {
@@ -441,13 +423,6 @@ nav ul li a:hover::after
     padding: 0.5em;
     width: 3em;
     height: 3em;
-}
-.inner-cards h5
-{
-    background-color: #e2e5e5a5;
-    padding: 0.7em;
-    border-radius: 0.5em;
-    width: fit-content;
 }
 .inner-cards a
 {
@@ -472,6 +447,42 @@ nav ul li a:hover::after
 {
     margin-bottom: 20px;
 }
+.donations-sect h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    margin-left: 1em;
+    font-weight: 800;
+}
+.inner-cards h5
+{
+    background-color: #e2e5e5a5;
+    padding: 0.7em;
+    border-radius: 0.5em;
+    width: fit-content;
+}
+/*
+.donations-cards-main{background-color: #090909;width: 40%;}
+.inner-cards
+{
+    border-radius: 1em;
+    padding: 2em;
+    margin-bottom: 3em;
+    overflow: hidden;
+    margin-left: 3em;
+    height: 43%;
+    width: 60%;
+    background: red;
+}
+
+.inner-cards h5
+{
+    background-color: #e2e5e5a5;
+    padding: 0.7em;
+    border-radius: 0.5em;
+    width: fit-content;
+}
+ */
 /* textside */
 .text
 {
@@ -749,6 +760,7 @@ gap: 20em;
 /* goal */
 .goal 
 {
+  height: fit-content;
   text-align: center;
   color: #669DA5;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -876,7 +888,7 @@ background-blend-mode: overlay;
 background-color: #0909099e;
 color: #fff;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-height: 110vh;
+height: fit-content;
 }
 .goal-1 h2
 {
@@ -899,7 +911,9 @@ height: 110vh;
   display: flex;
   justify-content: center;
   margin-top: 2em;
-  height: 50vh;
+  margin-bottom: 5em;
+  height: fit-content;
+  gap: 1%;
 }
 .cards-goal-1
 {
@@ -907,8 +921,7 @@ height: 110vh;
   background: #ffffffc3;
   overflow: hidden;
   height: 28em;
-  width: 25em;
-  margin-left: 2em;
+  width: 20em;
 }
 .cards-goal-1 div
 {
@@ -980,11 +993,6 @@ height: 110vh;
 {
     display: flex;
     gap: 0em;
-}
-  .altme P
-{
-  font-size: 0.5em;
-  font-weight: 0;
 }
 .nav-links
 {
@@ -1133,7 +1141,6 @@ span  {
 {
     color: #fff;
     font-size: 1em;
-    
 }
 /* donations */
 .donation-cards
@@ -1164,10 +1171,10 @@ span  {
     border-radius: 1em;
     padding: 2em;
     margin-bottom: 3em;
-    width: 0em;
+    width: 19em;
     margin-left: 0em;
     background: #ffffffa5;
-    height: 0vh;
+    height: 49vh;
 }
 .inner-cards img
 {
@@ -1299,7 +1306,7 @@ span  {
 /* goals */
 .goal
 {
-  height: fit-content;
+  height: 330vh;
 }
 .goal-1 h2
 {
@@ -1317,13 +1324,13 @@ span  {
   align-items: center;
   flex-direction: column;
   margin-top: 0;
-  height: 280vh;
+  height: 275vh;
 }
 .cards-goal-1
 {
   border-radius: 10px;
   background: #ffffffc3;
-  height: fit-content;
+  height: 110vh;
   width: 19em;
   margin-top: 2em;
   margin-left: 0;
@@ -1383,11 +1390,6 @@ span  {
 {
     display: flex;
     gap: 0em;
-}
-  .altme P
-{
-  font-size: 0.5em;
-  font-weight: 0;
 }
 .nav-links
 {
@@ -1552,7 +1554,6 @@ span  {
 .donations-sect
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 1800px;
 }
 .donations-sect h1
 {
@@ -1570,6 +1571,7 @@ span  {
     width: 19em;
     margin-left: 0em;
     background: #ffffffa5;
+    height: 49vh;
 }
 .inner-cards img
 {
@@ -1692,7 +1694,7 @@ span  {
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #ffffffaf;
-  height: 210vh;
+  height: 190vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1785,11 +1787,6 @@ span  {
 {
     display: flex;
     gap: 0em;
-}
-  .altme P
-{
-  font-size: 0.5em;
-  font-weight: 0;
 }
 .nav-links
 {
@@ -1953,7 +1950,6 @@ span  {
 }
 .donations-sect
 {
-  height: 2200px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .donations-sect h1
@@ -1973,7 +1969,7 @@ span  {
     width: 19em;
     margin-left: 0em;
     background: #ffffffa5;
-    height: 50vh;
+    height: 36vh;
 }
 .inner-cards img
 {
@@ -2174,67 +2170,5 @@ span  {
 .c1 img
 {
   padding: 0.2em;
-}
-}
-@media only screen and (max-width: 1334px) {
-.nav-links
-{
-  margin-left: 0em;
-    gap: 10%;
-    width: fit-content;
-}
-nav
-{
-    display: flex;
-    gap: 20%;
-    align-items: center;
-    justify-content: center;
-}
-.nav-items h3
-{
-    padding: 0.3em; 
-    border-radius: 5px; 
-}
-.nav-items h3>a
-{
-    font-size: 90%;
-}
-.nav-links a
-{
-    font-size: 90%;
-    color: #fff;
-    font-weight: 0;
-}
-.nav-links li
-{
-  text-align: center;
-}
-.nav-links
-{
-  width: 40%;
-}
-.center-elements h1
-{
-    font-size: 3em;
-}
-.center-elements-btns h3:nth-child(1)::after
-{
-    height:84%;
-    width: 22%;
-    left: 12%;
-}
-.center-elements-btns h3:nth-child(2)::after
-{
-    height:84%;
-    width: 23%;
-    left: 65%;
-}
-span  {
-  font-size: 170%;
-}
-.words {
-  height: 1.5em;
-  margin-top: 0.5em;
-  margin-left: 0.4em;
 }
 }
