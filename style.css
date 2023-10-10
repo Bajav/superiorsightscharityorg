@@ -43,6 +43,7 @@ li
   margin-top: 5px;
   margin-bottom: 15px;
 }
+.burger-1{display: none;}
 .burger-1 .line1:nth-child(1)
 {
   rotate: 60deg;
@@ -200,7 +201,6 @@ nav
     height: fit-content;
 }
 .about-section h3 {
-    /* Remove margin-top to avoid overlapping */
     margin-left: 1em;
     margin-top: 1em;
     font-size: 4em;
@@ -663,13 +663,13 @@ nav
   background-size: cover;
   background-blend-mode: overlay;
   background-color: #ffffffaf;
-  height: 100vh;
+  height: 150vh;
   display: flex;
  justify-content: center;
 }
 .contact iframe
 {
-  height: 90vh;
+  height: 146vh;
 }
 /* contact 2 */
 .contact-2
@@ -925,7 +925,7 @@ height: fit-content;
   border-radius: 10px;
   background: #ffffffc3;
   overflow: hidden;
-  height: 28em;
+  height: 33em;
   width: 20em;
 }
 .cards-goal-1 div
@@ -989,6 +989,23 @@ height: fit-content;
   color: #090909b4;
 }
 /* media queries */
+/* large screens */
+@media screen and (max-width:1024px) {
+  .about-section h3 {
+    font-size: 340%;
+  }
+  .words-wrap
+  {
+    width: fit-content;
+    display: flex; 
+ }
+  .words {
+    height: 4em;
+  }
+  span  {
+    font-size: 340%;
+}
+}
 @media screen and (max-width: 425px) {
   .nav-links
   {
