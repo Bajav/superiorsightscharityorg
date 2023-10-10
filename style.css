@@ -1037,7 +1037,7 @@ height: fit-content;
     display: none;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   header
   {
     height: 5em;
@@ -1107,7 +1107,7 @@ height: fit-content;
 /* about section */
 .about-section
 {
-  height: 150vh;
+  height: 300vh;
 }
 .about-section h3 {
   margin-left: 1em;
@@ -1383,7 +1383,7 @@ span  {
 {
   border-radius: 10px;
   background: #ffffffc3;
-  height: 110vh;
+  height: fit-content;
   width: 19em;
   margin-top: 2em;
   margin-left: 0;
@@ -1901,7 +1901,7 @@ span  {
 /* about section */
 .about-section
 {
-  height: 110vh;
+  height: fit-content;
 }
 .about-section h3 {
   margin-left: 1em;
@@ -2022,7 +2022,7 @@ span  {
     width: 19em;
     margin-left: 0em;
     background: #ffffffa5;
-    height: 36vh;
+    height: fit-content;
 }
 .inner-cards img
 {
@@ -2068,10 +2068,9 @@ span  {
   margin-left: 0.5em;
 }
 /* number cards */
-
 .numbers
 {
-    height: 115vh;
+    height: fit-content;
 }
 .number-cards p
 {
@@ -2139,8 +2138,6 @@ span  {
 }
 .contact
 {
-
-  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2149,7 +2146,7 @@ span  {
 /* goals */
 .goal
 {
-  height: 250vh;
+  height: fit-content;
 }
 .goal-1 h2
 {
@@ -2167,13 +2164,13 @@ span  {
   align-items: center;
   flex-direction: column;
   margin-top: 0;
-  height: 220vh;
+  height: fit-content;
 }
 .cards-goal-1
 {
   border-radius: 10px;
   background: #ffffffc3;
-  height: 50vh;
+  height: fit-content;
   width: 19em;
   margin-top: 2em;
   margin-left: 0;
@@ -2195,7 +2192,6 @@ span  {
 /* contact-2 */
 .contact-2
 {
-  height: 50vh;
   background-image: url(images/food.jpg);
   background-position: center;
   background-repeat: no-repeat;
