@@ -30,35 +30,13 @@ li
 nav
 {
     display: flex;
-    gap: 200px;
-    justify-content: center;
+  justify-content: space-around;
     align-items: center;
 }
 .nav-links
 {
     display: flex;
     gap: 40px;
-}
-nav ul li a::after
-{
-    content: "";
-    height: 3px;
-    width: 100;
-    position: absolute;
-    background: #e4b91f;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: width 0.6s;
-}
-nav ul li a:hover
-{
-  color: #e4b91f;
-}
-nav ul li a:hover::after
-{
-  color: #e4b91f;
-    width: fit-content;
 }
 .nav-items h3
 {
