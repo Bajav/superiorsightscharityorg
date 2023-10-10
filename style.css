@@ -389,6 +389,7 @@ nav
     background-blend-mode: overlay;
     height: fit-content;
     width: 100v;
+    height: fit-content;
     color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -414,6 +415,7 @@ nav
   padding: 5%;
   margin-left: 2%;
   margin-bottom: 10%;
+  height: fit-content;
 }
 .inner-cards img
 {
@@ -1018,10 +1020,16 @@ height: fit-content;
     height: 100vh;
     width: 100vw;
     align-items: center;
-    transform: translatey(100%);
+    transform: translatey(-100%);
     translate: all 5secs;
+    z-index: 2;
   }
-  .burger
+  .burger 
+  {
+    display: block;
+  }
+  
+  .burger-1
   {
     display: block;
   }
@@ -1219,7 +1227,7 @@ span  {
     width: 19em;
     margin-left: 0em;
     background: #ffffffa5;
-    height: 49vh;
+    height: fit-content;
 }
 .inner-cards img
 {
@@ -1426,7 +1434,7 @@ span  {
 }
 }
 /* 6,se,7,8 */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   header
   {
     height: 5em;
@@ -1496,7 +1504,7 @@ span  {
 /* about section */
 .about-section
 {
-  height: 150vh;
+  height: fit-content;
 }
 .about-section h3 {
   margin-left: 1em;
@@ -1616,7 +1624,7 @@ span  {
     width: 19em;
     margin-left: 0em;
     background: #ffffffa5;
-    height: 49vh;
+    height: fit-content;
 }
 .inner-cards img
 {
@@ -1665,7 +1673,7 @@ span  {
 
 .numbers
 {
-    height: 150vh;
+    height: fit-content;
 }
 .number-cards p
 {
@@ -1748,7 +1756,7 @@ span  {
 /* goals */
 .goal
 {
-  height: 330vh;
+  height: fit-content;
 }
 .goal-1 h2
 {
@@ -1766,13 +1774,13 @@ span  {
   align-items: center;
   flex-direction: column;
   margin-top: 0;
-  height: 275vh;
+  height: fit-content;
 }
 .cards-goal-1
 {
   border-radius: 10px;
   background: #ffffffc3;
-  height: 110vh;
+  height: 80vh;
   width: 19em;
   margin-top: 2em;
   margin-left: 0;
