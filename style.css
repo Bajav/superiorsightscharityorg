@@ -111,3 +111,52 @@ BODY
   left: -9em;
   font-family: var(--textFont);
 }
+.about-Us
+{
+  display: flex;
+  height: 100vh;
+  gap: 30px;
+  align-items: center;
+}
+.images
+{
+  display: flex;
+  gap: 30px;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-one
+{
+  background: url(./images/sideOne.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 300px;
+  width: 150px;
+  border-radius: 20px;
+}
+.item-two
+{
+  height: 400px;
+  width: 150px;
+  background: url(./images/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 20px;
+}
+.item-three
+{
+  background: url(./images/sideTwo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 300px;
+  width: 150px;;
+  border-radius: 20px;
+}
