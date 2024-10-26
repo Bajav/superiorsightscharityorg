@@ -41,6 +41,7 @@ p
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 10px 0px;
 }
 .nav-items img 
 {
@@ -262,4 +263,31 @@ p
   width: fit-content;
   font-size: 13px;
   margin-top: 10px;
+}
+.mission
+{
+  height: 100vh;
+  background: var(--heroColor);
+}
+.mission-text
+{
+  text-align: center;
+  font-family: var(--textFont);
+  color: var(--textColor);
+  padding: 20px 10px;
+}
+.mission-text h1
+{
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.mission-text p
+{
+  font-size: 15px;
+}
+.mission h2
+{
+  text-align: center;
+  font-family: var(--textFont);
+  color: var(--textColor);
 }
