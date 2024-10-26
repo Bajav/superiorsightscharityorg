@@ -82,3 +82,18 @@ BODY
   font-weight: 200;
   width: fit-content;
 }
+.section-one
+{
+  height: 100vh;
+  background: var(--heroColor);
+}
+.image
+{
+  background: url(./images/heroBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 80vh;
+  width:90vw
+}
