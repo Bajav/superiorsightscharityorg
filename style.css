@@ -264,6 +264,61 @@ p
   font-size: 13px;
   margin-top: 10px;
 }
+.imageSlider
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.small
+{
+  width: 150px;
+  height: 250px;
+  border-radius: 20px;
+}
+.big
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  width: 150px;
+  border-radius: 20px;
+  height: 320px;
+}
+.big-one
+{
+  background-image: url('./images/bigWomen.jpeg');
+}
+.big-two
+{
+  background-image: url('./images/bigFood.jpg');
+}
+.small-one
+{
+  background: url('./images/childRen.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.small-two
+{
+  background: url('./images/food.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.small-three
+{
+  background: url('./images/schhool.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
 .mission
 {
   height: 100vh;
