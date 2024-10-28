@@ -214,6 +214,7 @@ p
   color: var(--navBg);
   text-decoration: none;
 }
+/* community - section */
 .community
 {
   height: 100vh;
@@ -319,6 +320,7 @@ p
   background-size: cover;
   background-blend-mode: overlay;
 }
+/* mission - section */
 .mission
 {
   height: 100vh;
@@ -345,4 +347,43 @@ p
   text-align: center;
   font-family: var(--textFont);
   color: var(--textColor);
+}
+/* mission cards */
+.cards
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.card
+{
+  background: var(--navBg);
+  height: 320px;
+  width: 270px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+}
+.card-image
+{
+  background: url('./images/water.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-blend-mode: overlay;
+  height: 160px;
+  width: 270px;
+}
+.card p
+{
+  font-size: 11px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--textFont);
+  /* line-height: 14px; */
 }
