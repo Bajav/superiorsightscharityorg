@@ -67,6 +67,10 @@ p {
   background: #504e4e;
   color: var(--navBg);
 }
+.hide
+{
+  display: none;
+}
 .nav-items h4 {
   color: var(--navBg);
   background: var(--orange);
@@ -436,7 +440,22 @@ p {
 }
 @media screen and (max-width: 700px) {
   /* section one */
-
+  .hero 
+  {
+    height: 70vh;
+  }
+  .welcomeTxt p {
+    top: 80px;
+  }
+  .section-one p {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .image
+  {
+    height: 70vh;
+    border-radius: 15px;
+  }
   /* archievements */
 
   .card p {
@@ -472,4 +491,30 @@ p {
   .item-three {
     width: 250px;
   }
+}
+
+@media screen and (max-width: 560px) {
+  .hide-btn
+  {
+    display: none;
+  }
+  .hide
+  {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav-links a {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .welcomeTxt p {
+    font-size: 24px;
+    line-height: 28px;
+}
+.nav-links a {
+  padding: 2px 5px;
+}
 }
