@@ -2,8 +2,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Superio Sights Charity</title>
+    <title>Superior Sights Charity</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <section class="hero-main">
@@ -12,9 +13,9 @@
           <img src="./icons/Vector.png" alt="logo" />
           <nav class="nav-links">
             <a href="#">home</a>
-            <a href="#">about</a>
+            <a href="#about">about</a>
             <a href="#">projects</a>
-            <a href="#">archievements</a>
+            <a href="#archievements">archievements</a>
             <a class="hide" href="#">contact</a>
           </nav>
           <h4 class="hide-btn">contact us</h4>
@@ -34,15 +35,39 @@
           Small Efforts, Boundless Change
         </p>
       </div>
-      <div class="image"></div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/heroBg.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/sideOne.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/bigWomen.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/bigFood.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/people.jpeg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/school.jpeg" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
-    <section class="about-Us">
+    <section class="about-Us" id="about">
       <div class="images">
         <div class="item-one"></div>
         <div class="item-two"></div>
         <div class="item-three"></div>
       </div>
-      <div class="side-text">
+      <div class="side-text" >
         <h1>about us</h1>
         <p>
           Superior sights organization is a catalyst for change, transcending
@@ -86,7 +111,7 @@
         </p>
       </div>
       <h2>Achievements</h2>
-      <div class="cards">
+      <div class="cards" id="archievements">
         <div class="cards-flex">
           <div class="card">
             <div class="card-image"></div>
@@ -142,5 +167,25 @@
         
       </div>
     </section>
+    <script src="/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+    </script>
   </body>
 </html>
