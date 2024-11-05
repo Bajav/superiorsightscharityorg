@@ -86,10 +86,14 @@ p {
   top: 120px;
   left: 30px;
   font-size: 35px;
-  line-height: 35px;
+  line-height: 40px;
   color: var(--navBg);
   font-weight: 200;
   width: fit-content;
+}
+.welcomeTxt span
+{
+  font-weight: 400;
 }
 .section-one {
   height: 100vh;
@@ -352,13 +356,17 @@ p {
   border-radius: 10px;
 }
 .card-image {
-  background: url("./images/water.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px;
   background-blend-mode: overlay;
+  width: 100%;
+}
+.card-image img
+{
   height: 160px;
+  border-radius: 10px;
+  object-fit: cover;
   width: 100%;
 }
 .card p {
