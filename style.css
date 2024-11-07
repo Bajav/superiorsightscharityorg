@@ -305,6 +305,7 @@ p {
   background: var(--heroColor);
   overflow-x: hidden;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
@@ -399,6 +400,52 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+/* videos section */
+.videos
+{
+  height: 100vh;
+  background: #F6F6F6;
+  width: 100vw;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column; */
+}
+.video-1
+{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.videos h2
+{
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: var(--textFont);
+  text-transform: capitalize;
+  color: var(--textColor);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.video
+{
+  background: #504e4e;
+  width: 95%;
+  height: 50vh;
+  border-radius: 20px;
+}
+.video-1 p
+{
+  font-family: var(--textFont);
+  font-size: 15px;
+  color: var(--textColor);
+  text-align: end;
+  margin-top: 20px;
 }
 /* media queries */
 @media screen and (max-width: 1020px) {
