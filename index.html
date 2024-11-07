@@ -201,10 +201,37 @@
     <section class="videos">
       <h2>project videos</h2>
       <div class="video-1">
-        <div class="video"></div>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit earum esse, praesentium quisquam magni doloremque dolore. Exercitationem, tempore sit?
-        </p>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <iframe width="1300" height="420" src="https://www.youtube.com/embed/moSRGIxgPto?si=5OO_57hvWcfcfYWn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="text-video">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit earum esse, praesentium quisquam magni doloremque dolore. Exercitationem, tempore sit?
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <iframe width="1300" height="420" src="https://www.youtube.com/embed/cjRFyGv-tgQ?si=oumq4jrwFypSkyXr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="text-video">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit earum esse, praesentium quisquam magni doloremque dolore. Exercitationem, tempore sit?
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <iframe width="1300" height="420" src="https://www.youtube.com/embed/SU0VKbg0hEE?si=bBSrsh9AePNVm2v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="text-video">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. In suscipit earum esse, praesentium quisquam magni doloremque dolore. Exercitationem, tempore sit?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
 
       </div>
       <div class="moreVideos">
@@ -220,7 +247,7 @@
     centeredSlides: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
     pagination: {
       el: ".swiper-pagination",
