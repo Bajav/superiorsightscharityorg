@@ -417,7 +417,7 @@ p {
 }
 .video-1
 {
-  width: 100%;
+  width: 50%;
   height: 75vh;
   display: flex;
   justify-content: center;
@@ -437,24 +437,9 @@ p {
 .video
 {
   background: #504e4e;
-  width: 95%;
+  width: 50%;
   height: 75vh;
   border-radius: 20px;
-}
-.text-video
-{
-  background: #de7e00;
-  position: relative;
-  top: -80px;
-  height: 90px;
-}
-.video-1 p
-{
-  font-family: var(--textFont);
-  font-size: 15px;
-  color: var(--heroColor);
-  text-align: end;
-  margin-top: 20px;
 }
 /* contact us  */
 .contact-us
@@ -465,6 +450,9 @@ p {
   display: flex;
   justify-content: center;
   align-self: center;
+}
+.contact-side-one{
+  width: 50%;
 }
 .contact-container
 {
@@ -484,13 +472,27 @@ p {
   color: var(--textColor);
   letter-spacing: 3px;
 }
+.links
+{
+  margin-top: 70px;
+}
 .link
 {
   display: flex;
-  gap: 10px;
+  gap: 30px;
   align-items: center;
+  margin-bottom: 30px;
+  font-family: var(--textFont);
+  color: var(--textColor);
 }
-
+.link img
+{
+  width: 30px;
+}
+.link h4
+{
+  font-weight: 400;
+}
 /* media queries */
 @media screen and (max-width: 1020px) {
   /* section one */
