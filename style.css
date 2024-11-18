@@ -512,6 +512,22 @@ p {
 {
   font-weight: 400;
 }
+.linked
+{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.linked a
+{
+  font-family: var(--bigText);
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 20px;
+}
+.linked img{
+  width: 15px;
+}
 .accordion {
   display: flex;
   flex-direction: column;
@@ -520,7 +536,6 @@ p {
   color: var(--textColor);
   width: 100%;
 }
-
 
 
 .accordion__item {
