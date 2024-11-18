@@ -497,7 +497,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 100%;
+  width: 50%;
 }
 
 .accordion__item {
