@@ -13,5 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
             
            e.currentTarget.classList.toggle('active')
         })
-      })
-      })
+      });
+      const date = new Date();
+    //   const year = 2023
+      const year = date.getFullYear();
+      const rights = document.querySelector(".rights");
+      if (rights) {
+        rights.innerHTML = `All rights reserved by Superior Sights Charity Organization ${year}`;
+      }
+      });
