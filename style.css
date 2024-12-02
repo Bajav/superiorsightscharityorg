@@ -62,7 +62,8 @@ p {
   width: 50px;
   height: 50px;
 }
-.nav-links a {
+
+a {
   text-decoration: none;
   color: var(--textColor);
   font-family: var(--textFont);
@@ -95,6 +96,10 @@ p {
   padding: 5px 15px;
   border-radius: 5px;
 }
+.welcomeTxt
+{
+  width: 80%;
+}
 .welcomeTxt p {
   font-family: var(--textFont);
   position: relative;
@@ -104,7 +109,6 @@ p {
   line-height: 40px;
   color: var(--navBg);
   font-weight: 200;
-  width: fit-content;
 }
 .welcomeTxt span
 {
@@ -376,7 +380,7 @@ p {
 .card {
   background: var(--navBg);
   height: 300px;
-  width: 45%;
+  width: 43%;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -647,7 +651,23 @@ padding: 20px 25px;
   margin-top: 10px;
   text-transform: capitalize;
 }
-
+.videoWrapper
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.textSide
+{
+  width: 50%;
+  padding: 10px;
+}
+.textSide p
+{
+  font-family: var(--textFont);
+  color: var(--textColor);
+  font-weight: 400;
+}
 /* media queries */
 @media screen and (max-width: 1020px) {
   /* section one */
