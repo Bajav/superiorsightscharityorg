@@ -517,7 +517,7 @@ a {
   justify-content: center;
   align-self: center;
   animation: appear  linear;
-  animation-range: entry 0 cover 40%;
+  animation-range: entry 0 cover 30%;
   animation-timeline: view();
 }
 .contact-side-one{
@@ -663,7 +663,7 @@ padding: 10px 25px;
   font-family: var(--textFont);
   color: var(--textColor);
   font-size: 10px;
-  margin-top: 10px;
+  margin-top: 55px;
   text-transform: capitalize;
 }
 .videoWrapper
