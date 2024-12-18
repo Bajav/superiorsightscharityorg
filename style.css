@@ -683,6 +683,68 @@ padding: 10px 25px;
   color: var(--textColor);
   font-weight: 400;
 }
+/* goals */
+@keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+  }
+.goals
+{
+  background: var(--heroColor);
+  font-family: var(--textFont);
+}
+.goals-content
+{
+ /* width: 200%; */
+ display: grid;
+ grid-template-columns: repeat(4, minmax(0, 1fr));
+ /* background: red; */
+ height: 90vh;
+ padding: 20px;
+ align-items: center;
+}
+.icon
+{
+  animation: blink 1.5s linear infinite;
+}
+.goals h1
+{
+  text-align: center;
+  color:var(--textColor);
+  font-size: 30px;
+  padding-top: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.goal-card
+{
+  background: var(--navBg);
+  color:var(--textColor);
+  padding: 10px;
+  width: 90%;
+  height: 85%;
+  border-radius: 10px;
+}
+
+.goal-header
+{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ }
+ .goal-header h4
+ {
+  font-size: 15px;
+  font-weight: 300
+ }
+ .goal-text p
+ {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 30px;
+ }
+
 /* media queries */
 @media screen and (max-width: 1020px) {
   /* section one */
