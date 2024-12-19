@@ -957,3 +957,101 @@ padding: 10px 25px;
   padding: 2px 5px;
 }
 }
+@media screen and (max-width: 440px) 
+{
+  .images {
+    width: 87%;
+      gap: 10px;
+      height: 58vh;
+}
+.small {
+  border-radius: 10px;
+    width: 15%;
+}
+.big 
+{
+  border-radius: 10px;
+  width: 20%;
+}
+.imageSlider
+{
+  gap: 10px;
+}
+.goals-content {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+    height: 220vh;
+}
+.mission 
+{
+  animation-range: entry 0 cover 30%;
+  height: 191vh;
+}
+.cards-flex {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  width: 90%;
+  height: 260px;
+}
+.videos {
+  animation-range: entry 0 cover 19%;
+}
+.videoWrapper 
+{
+  flex-direction: column-reverse;
+  gap:35px;
+}
+.textSide {
+  width: 90%;
+  text-align: center;
+  padding: 0px;
+}
+.video-1 {
+  width: 100%;
+}
+.swiper 
+{
+  border-radius: 10px;
+  object-fit: cover;
+}
+#player
+{
+  width: 65%;
+}
+.contact-us {
+  height: 135vh;
+  background: steelblue;
+}
+.contacts 
+{
+  flex-direction: column;
+}
+.contact-container
+{
+  border-radius: 15px;
+  height: 125vh;
+  width: 85%;
+}
+.contact-side-one {
+  width: 100%;
+}
+.contact-side-two {
+  width: 100%;
+}
+.links {
+  margin-top: 15px;
+}
+.accordion 
+{
+  width: 100%;
+}
+.accordion__header {
+  padding: 7px 7px;
+}
+.accordion__item 
+{
+  height: 45px;
+}
+}
